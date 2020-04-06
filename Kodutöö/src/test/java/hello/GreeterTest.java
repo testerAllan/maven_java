@@ -16,7 +16,7 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-@RunWith(MockitoJUnitRunner.class) // Küsimus 4: Kas sellel on mingi põhjus siin või see lihtsalt peab alati olema, kui kasutan Mockitot?
+@RunWith(MockitoJUnitRunner.class) // Küsimus 4: Kas sellel on mingi põhjus või see lihtsalt peab alati olema, kui kasutan Mockitot?
 public class GreeterTest 
 {
     @InjectMocks // Küsimus 1: Kas see siin tekitab Greeter objekti, mis edaspidi kasutab Counter klassi "mocki"(koopiat) ?
