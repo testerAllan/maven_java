@@ -1,7 +1,13 @@
 package hello;
 
-public class Student {String cours, String EA, String teache)
-    public String course = cours;
-    public String EAP = EA;
-    public String teacher = teache;
+public class Course {
+    public String course;
+    public String EAP;
+    public String teacher;
+
+    public void createCourse(String course, String EAP, String teacher) {
+        this.course = course;
+        this.EAP = EAP;
+        this.teacher = teacher;
+    }
 }
